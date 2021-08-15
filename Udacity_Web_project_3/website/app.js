@@ -1,8 +1,8 @@
 /* Global Variables */
 // Personal API Key for OpenWeatherMap API (n.b. using London as an example when passed as the Zip code, the full API when passed will look like):
-// 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=c0b248af356e17f10173013bdf8b7729';
+// 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=????????????????????????????????&units=metric';
 const baseURL = 'https://api.openweathermap.org/data/2.5/weather?q=';
-const personalAPIkey = '&APPID=c0b248af356e17f10173013bdf8b7729&units=metric';
+const personalAPIkey = '&APPID=????????????????????????????????&units=metric';
 
 //Global variables to store user entered values from the GUI front end:  
 let zipcode = "";
